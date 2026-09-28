@@ -1,0 +1,14 @@
+{
+  "name": "adaptive-learning-prototype-0.6-stage4l-spacing-copy-fix",
+  "version": "0.6.0-stage4l-spacing",
+  "private": true,
+  "description": "Stage 4L spacing and response guidance pass",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "node smoke-test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
