@@ -419,3 +419,12 @@
 .bookmarkActions>.primary{grid-column:2;justify-self:center;max-width:100%}
 .bookmarkActions>.bookmarkControl{grid-column:3;justify-self:end}
 .resourceLink{display:inline-flex;align-items:center;justify-content:center;white-space:normal;text-align:center}
+
+/* Stage 5B follow-up: completion is separate from directional navigation. */
+.supportActions{display:flex;justify-content:center;align-items:center;grid-template-columns:none}
+.completionActionStack{display:flex;flex-direction:column;align-items:center;gap:24px;margin:24px 0 12px}
+.completionActionStack>.btn,.completionActionStack>.supportChoice{min-height:48px;max-width:100%}
+.completionActionStack+.dots{margin-top:24px}
+.writingActions{flex-direction:column;align-items:center;gap:16px}
+.reflectionPrompt .shortBox{margin-top:16px}
+.writingActions .btn,.speechControlRow .speechBtn,.reflectionActions .btn{min-height:48px}
